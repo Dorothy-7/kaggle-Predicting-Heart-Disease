@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 仮想環境
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# データファイル（必要に応じてコメントアウト）
+# Data/*.csv
+# data/raw/*.csv
+# Data/raw/*.csv
+
+# モデルファイル
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# ログファイル
+*.log
+
+# Portfolio outputs (large files)
+outputs/submissions/
+outputs/oof/
+outputs/models/
+outputs/logs/
+
+
+
+
+
