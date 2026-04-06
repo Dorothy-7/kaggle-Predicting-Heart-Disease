@@ -24,7 +24,7 @@ wheels/
 venv/
 env/
 ENV/
-.venv
+.venv/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -54,6 +54,23 @@ Thumbs.db
 
 # ログファイル
 *.log
+
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+.kaggle/
+
+# Python tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
 
 # Portfolio outputs (large files)
 outputs/submissions/
